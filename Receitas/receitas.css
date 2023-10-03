@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.receitas img {    
+    width: 80%;
+    height: 35%;
+    margin: 5px;
+}
+
+
+.cards-receitas li {
+    text-align: center;
+    font-size: 17px;
+}
+
+.receita-titulo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+

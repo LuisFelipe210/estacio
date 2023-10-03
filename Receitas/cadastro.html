@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="formato.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Borel&family=Handjet&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body style="background-color: #db9569;">
+  <header class="cabecalho" style="background-color: #c98860;">
+    <nav>
+        <nav class="navbar navbar-expand-lg fonte-arial menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo-size" src="./Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="receitas.html">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="cadastro.html">Cadastro</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</header>
+
+  <main class="container-fluid principal formulario">
+
+    <form class="container-fluid">
+      <div>
+        <h1 class="row h1 p-2">Cadastro</h1>
+      </div>
+      <div class="row p-2">
+        <label for="nome" class="col-1">Nome:</label>
+        <input type="text" class="col-7" id="nome">
+      </div>
+      <div class="row p-2">
+        <label for="email" class="col-1">E-mail:</label>
+        <input type="email" class="col-7" id="email">
+      </div>
+      <div class="row p-2">
+        <label for="cep" class="col-1">CEP:</label>
+        <input type="text" class="col-3" id="cep">
+      </div>
+      <div class="row p-2">
+        <label for="rua" class="col-1">Rua:</label>
+        <input type="text" class="col-7" id="rua">
+      </div>
+      <div class="row p-2">
+        <label for="numero" class="col-1">Nº:</label>
+        <input type="text" class="col-2" id="numero">
+        <label for="complemento" class="col-2">Complemento:</label>
+        <input type="text" class="col-3" id="complemento">
+      </div>
+      <div class="row p-2">
+        <label for="cidade" class="col-1">Cidade:</label>
+        <input type="text" class="col-5" id="cidade">
+        <label for="uf" class="col-1">UF:</label>
+        <input type="text" class="col-1" id="uf">
+        <button type="submit" class="col-2 btn btn-secondary ms-3">Cadastrar</button>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy;Luis Felipe - 2023</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

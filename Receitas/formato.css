@@ -1,0 +1,94 @@
+
+.menu {
+    font-size: 40px;
+}
+
+.logo-size {
+    width: 140px;
+    height: 140px;
+}
+    
+
+.logotipo {
+    width: 350px;
+    height: 350px;
+}
+
+.principal {    
+    height: calc(80vh - 80px);
+}
+
+main {
+    text-align: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+main p {
+    font-size: 23px;    
+}
+
+
+.rodape {
+    width: 100%;
+    background-color: #422f1e;
+    color: #ffffff;
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.fonte-borel {
+    font-family: 'Borel', cursive;
+}
+
+
+@media (max-width: 768px) {
+    .logo-size {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logotipo {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .principal {    
+        height: calc(100vh - 100px);
+    }
+    
+    main {
+        text-align: center;
+        height: calc(100vh - 100px);
+        width: 100%;
+    }
+    
+    main p {
+        font-size: 18px;    
+    }
+    
+    .rodape {
+        width: 100%;
+         background-color: #422f1e;
+        color: white;
+        position: fixed;
+        height: 25px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .fonte-georgia {
+        font-family: 'Georgia', cursive;
+    }
+
+    .formulario {
+        font-size: 7px;
+    }
+
+}
